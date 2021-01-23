@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <TITLE>武连增的作业展示 | 电子时钟</TITLE>
+</head>
+<body style="background-color:BlanchedAlmond">
+    <div id="maxname">
+        <div id="titlename">
+            <h1 style="margin-bottom:0;text-align:center;">电子时钟</h1>
+            <hr />
+        </div>
+        <div id="space1" style="height:700px; width:40px; background-color:BlanchedAlmond; float:left"></div>
+        <div id="menu" style="background-color:cornsilk; width:160px; float:left;">
+            <font size="4">
+                <b>作品目录<br /></b><hr>
+                <a href="../index.htm">主菜单<br><br></a>
+                <a href="remote_led.htm">遥控灯<br><br></a>
+                <a href="choose_song.htm">点歌台<br><br></a>
+                <a href="humid_temp.htm">温湿度检测器<br><br></a>
+            </font>
+        </div>
+        <div id="space2" style="height:700px; width:40px; background-color:BlanchedAlmond; float:left"></div>
+        <div id="video" style="background-color:BlanchedAlmond; height:400px; width:1000px; float:left;">
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+            <video width="700" height="400" controls autoplay>
+                <source src="../video/electric_clock.mp4" type="video/mp4">
+                <embed src="../video/electric_clock.mp4">
+            </video><br />
+            <font size="4">
+                <p1>
+                    电子时钟是由Arduino Uno主板，I/O扩展主板，I2C LCD1602液晶模块，Irrecv 红外接收模块，
+                    mini遥控器，蜂鸣器，USB线及若干连接线组成。功能是可以实时显示时间并且进行时间的修改。（闹钟功能尚未实现）<br /><br />
+                </p1>
+                <p2 style="color:red">
+                    按遥控器“1”键可进入时间修改模式，按左快进键使光标向左移动一位，按右快进键使光标向右移动一位，按vol+键使光标处的数字加1。
+                </p2>
+            </font>
+        </div>
+        <div id="author" style="height:40px; clear:both">
+            <hr>
+            <p style="text-align: center">作者：武连增</p>
+        </div>
+    </div>
+</body>
+</html>

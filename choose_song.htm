@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <TITLE>武连增的作业展示 | 点歌台</TITLE>
+</head>
+<body style="background-color:BlanchedAlmond">
+    <div id="maxname">
+        <div id="titlename">
+            <h1 style="margin-bottom:0;text-align:center;">点歌台</h1>
+            <hr />
+        </div>
+        <div id="space1" style="height:700px; width:40px; background-color:BlanchedAlmond; float:left"></div>
+        <div id="menu" style="background-color:cornsilk; width:160px; float:left;">
+            <font size="4">
+                <b>作品目录<br /></b><hr>
+                <a href="../index.htm">主菜单<br><br></a>
+                <a href="remote_led.htm">遥控灯<br><br></a>
+                <a href="humid_temp.htm">温湿度检测器<br><br></a>
+                <a href="electric_clock.htm">电子时钟<br><br></a>
+            </font>
+        </div>
+        <div id="space2" style="height:700px; width:40px; background-color:BlanchedAlmond; float:left"></div>
+        <div id="video" style="background-color:BlanchedAlmond; height:400px; width:1000px; float:left;">
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+            <video width="700" height="400" controls autoplay>
+                <source src="../video/choose_song.mp4" type="video/mp4">
+                <embed src="../video/choose_song.mp4">
+            </video><br/>
+            <font size="4">
+                <p1>
+                    点歌台组件由Arduino Uno主板，I/O扩展主板，红色LED灯，蜂鸣器，USB线及若干连接线组成。
+                    功能是根据输入的歌曲点歌，如果歌曲库中没有搜索结果则显示没有此歌曲。本歌曲库中含For Elise（节选）。
+                </p1><br />
+                     <div id="tune" style="height:200px; width:500px; float:left; color:red">
+                         <p>
+                             曲调频率为(0为空拍)<br />
+                             1318,1245,1318,1245,1318,988,1175,1046,880,<br />
+                             0,523,659,880,988,<br />
+                             0,659,831,988,1046,<br />
+                             0,659,1318,1245,1318,1245,1318,988,1175,1046,880,<br />
+                             0,523,659,880,988,<br />
+                             0,659,1046,988,880<br />
+                         </p>
+                     </div>
+                     <div id="beat" style="height:200px; width:500px; float:left; color:red ">
+                         <p>
+                             曲调节拍为<br />
+                             0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1,<br />
+                             0.5,0.5,0.5,0.5,1,<br />
+                             0.5,0.5,0.5,0.5,1,<br />
+                             0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1,<br />
+                             0.5,0.5,0.5,0.5,1,<br />
+                             0.5,0.5,0.5,0.5,1<br />
+                         </p>
+                     </div>
+            </font>
+        </div>
+        <div id="author" style="height:40px; clear:both">
+            <hr>
+            <p style="text-align: center">作者：武连增</p>
+        </div>
+    </div>
+</body>
+</html>
